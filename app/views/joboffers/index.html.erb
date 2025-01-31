@@ -1,0 +1,9 @@
+<h1>Joboffers</h1>
+
+<div id="joboffers">
+  <% @joboffers.each do |joboffer| %>
+    <div>
+        <%= link_to joboffer.name, joboffer %>
+    </div>
+  <% end %>
+</div>
